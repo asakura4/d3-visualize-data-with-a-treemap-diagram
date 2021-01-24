@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+svg {
+  font: 10px sans-serif;
+}
+
+.main {
+  display: flex;
+  align-item: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main .header {
+  text-align: center;
+  
+}
+.graph-part, .legend-part{
+  padding-top: 10px;
+  text-align: center;
+
+}
+
+
+
+#title{
+  font-size: 2em;
+  padding-bottom: .5rem;
+}
+
+.tooltip {
+  position: absolute;
+  padding: 10px;
+  font: 12px Arial;
+  background: rgba(232, 236, 241, 1);
+  box-shadow: 1px 1px 10px rgba(108, 122, 137, 1);
+  border: 0px;
+  border-radius: 0px;
+  pointer-events: none;
+}
+
+.tile-text{
+  cursor: default;
+}
